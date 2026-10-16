@@ -3,7 +3,9 @@ name = "cursorproject"
 version = "0.1.0"
 requires-python = ">=3.15"
 dependencies = [
+    "gradio>=6.30.0",
     "openai>=3.31.0",
+    "pypdf>=6.21.0",
     "python-dotenv>=1.2.4",
     "requests>=2.34.2",
 ]
